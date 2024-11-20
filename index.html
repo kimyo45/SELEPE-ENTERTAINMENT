@@ -37,7 +37,12 @@
                     <!-- Order Form Section -->
                     <section class="dropdown-section">
                         <h2>Order Your T-Shirt</h2>
-                
+                  <label for="customer-name">Full Name:</label>
+    <input type="text" id="customer-name" name="customer-name" placeholder="Enter your full name" required>
+    <!-- Phone Number Field -->
+    <label for="customer-phone">Phone/WhatsApp Number:</label>
+    <input type="tel" id="customer-phone" name="customer-phone" placeholder="Enter your phone number" pattern="[0-9+() ]{10,15}" required>
+                        
                         <!-- Form to Select Product -->
                         <form action="https://formspree.io/f/xnnqznwr" method="POST">
                             <label for="product">Select Product:</label>
